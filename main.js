@@ -25,8 +25,8 @@ function createWindow() {
   });
 
   // 开发环境，加载 localhost
-  // win.loadURL('http://localhost:3000');
-  win.loadFile(path.join(__dirname, 'out/index.html'));
+  win.loadURL('http://localhost:3000');
+  //win.loadFile(path.join(__dirname, 'out/index.html'));
 
   // 可选：打开调试工具
   //win.webContents.openDevTools();

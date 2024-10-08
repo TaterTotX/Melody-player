@@ -21,7 +21,7 @@ To get started with Melody, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/melody.git
+   git clone https://github.com/TaterTotX/Melody-player.git
    ```
 
 2. **Install Dependencies**:
@@ -34,13 +34,15 @@ To get started with Melody, follow these steps:
 3. **Run the Application**:
    Launch the application using the following command:
    ```bash
-   npm run electron:dev
+   npm run dev
+   npm run start
    ```
 
 ## Build
-To create a production build of the application:
+To create a production build of the application:change main.js setting win.loadFile(path.join(__dirname, 'out/index.html'));
 ```bash
-npm run build
+npm run export
+npm run dist
 ```
 
 ## Technologies Used
@@ -53,7 +55,4 @@ If you would like to contribute to Melody, feel free to submit a pull request or
 
 ## License
 This project is licensed under the MIT License.
-
-## Contact
-For any questions or suggestions, please contact [your email address].
 
